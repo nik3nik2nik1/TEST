@@ -3,9 +3,6 @@ package com.nik.wmlistcopy.inputoutput;
 import java.io.*;
 import java.util.ArrayList;
 
-/**
- * Created by nik on 21.10.2015.
- */
 public class ReadFile {
 
     private ArrayList<String> StringArray;
@@ -22,13 +19,10 @@ public class ReadFile {
                 StringArray.add(value);
             }
 
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace();
-        } catch (UnsupportedEncodingException ex) {
-            ex.printStackTrace();
         } catch (IOException ex) {
             ex.printStackTrace();
         }
+        // sss
     }
 
     public ArrayList<String> getStringArray() {
