@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb3ae45d-3636-4254-994d-e43255a83c77" name="Default" comment="1. add xml parser (saxParser, saxSample)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nik/wmlistcopy/inputoutput/ParserFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/TEST_jar/TEST.jar" afterPath="$PROJECT_DIR$/out/artifacts/TEST_jar/TEST.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nik/wmlistcopy/inputoutput/ReadFile.java" afterPath="$PROJECT_DIR$/src/com/nik/wmlistcopy/inputoutput/ReadFile.java" />
+    <list default="true" id="fb3ae45d-3636-4254-994d-e43255a83c77" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/xxx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TEST.iws" />
@@ -52,14 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saxParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="saxParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xxx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nik/wmlistcopy/main/xxx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.097826086">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +97,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -115,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxSample.java" />
         <option value="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxParser.java" />
         <option value="$PROJECT_DIR$/src/com/nik/wmlistcopy/inputoutput/ParserFile.java" />
+        <option value="$PROJECT_DIR$/src/com/nik/wmlistcopy/main/xxx.java" />
       </list>
     </option>
   </component>
@@ -432,7 +444,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445459918346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. add xml parser (saxParser, saxSample)">
+      <created>1445532223187</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1445532223187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -659,11 +677,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nik/wmlistcopy/main/saxParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nik/wmlistcopy/main/xxx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.097826086">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
