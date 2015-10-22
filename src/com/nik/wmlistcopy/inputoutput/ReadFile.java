@@ -22,7 +22,6 @@ public class ReadFile {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        // sss
     }
 
     public ArrayList<String> getStringArray() {
