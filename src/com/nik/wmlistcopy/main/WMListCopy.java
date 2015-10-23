@@ -1,6 +1,7 @@
 package com.nik.wmlistcopy.main;
 
 import com.nik.wmlistcopy.StringProcessing.StringCircumcision;
+import com.nik.wmlistcopy.gui.FileChooserPathSourcePathDestination;
 import com.nik.wmlistcopy.inputoutput.CopyDateFromFilePath;
 import com.nik.wmlistcopy.xmlParser.saxParser;
 
@@ -14,16 +15,17 @@ import java.util.ArrayList;
  */
 public class WMListCopy {
 
-
-
     public static void main(String[] args) throws IOException {
 
         ArrayList<String> PathAndNameArray;
-        String NewPath = "E:\\ms";
+        String ObjectPars, NewPath;
 
         try {
-
-            String ObjectPars = "C:\\Users\\nik\\IntelliJ_IDEA\\TEST\\out\\artifacts\\TEST_jar\\1.wpl";
+            // Два окна выбора файла и выбора папки куда копировать
+            FileChooserPathSourcePathDestination PathOneAndTwo = new FileChooserPathSourcePathDestination();
+            // Возвращение пути к файлу списку и пити к конечной директории
+            ObjectPars = PathOneAndTwo.getObjectPars();
+            NewPath = PathOneAndTwo.getNewPath();
             // Инициализация обработчика xml
             saxParser sample = new saxParser(ObjectPars);
             //Определяет API фабрики, который позволяет приложениям сконфигурировать и получить SAX базируемый
@@ -39,7 +41,6 @@ public class WMListCopy {
             PathAndNameArray = new StringCircumcision(sample.getPathArray()).getPathAndNameArray();
             //Копирование файлов
             new CopyDateFromFilePath(PathAndNameArray, NewPath);
-
         } catch (Exception e) {
             e.printStackTrace(System.err);
         }
